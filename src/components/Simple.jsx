@@ -12,6 +12,13 @@ const Simple = () => {
 
         ease: "easeInOut",
       }}
+      exit={{
+        x: "-100vw",
+        transition: {
+          duration: 1,
+          ease: "easeInOut",
+        },
+      }}
     />
   );
 };
